@@ -9,6 +9,7 @@ c.	spotify_charts_weeks_data - contains dates representing weeks for which we fo
 a.	galgalatz_songs – contains the songs parades extracted from galgalatz website, which were published each week from '2019-02-21' to '2021-02-25', and for each song it’s song name, song artist, genre, audio features*,  and a list of weeks in which the song was shown in the parade.
 b.	galgalatz_weeks_to_lockdown – contains dates representing weeks for which we extracted the parades songs, and for each week the number of lockdown on which it occurred (0 if there was no lockdown on that date, 1 for the first lockdown, 2 for the second lockdown and 3 for the third lockdown). In addition for each date, there is a binary value that says whether the date was at the time of the corona or not.
 c.	galgalatz_weeks_data - contains dates representing weeks for which we extracted the parades songs, and for each week the average number for each audio feature*.
+
 *Audio features:
 •	Danceability: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
 •	Acousticness: A measure from 0.0 to 1.0 of whether the track is acoustic.
