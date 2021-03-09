@@ -2,12 +2,18 @@
 
 Our collection contains:
 1.	Spotify charts:
+
 a.	spotify_charts_songs – contains the most played songs in spotify. The data was extracted from spotify charts, for each week between 2019-03-08 and 2021-03-03. Each song contains the following information: name, artist, genre, audio features*, and a list of weeks in which it was played the most.
+
 b.	spotify_charts_weeks_to_lockdown – contains dates representing weeks for which we extracted the most played songs. For each week there is a number of lockdown on which it occurred (0 if there was no lockdown at that time, and ,1,2,3 respectively to the first, second, and the third lockdowns). In addition, each date has a binary value that indicates whether it occurred before or after corona outbreak.
+
 c.	spotify_charts_weeks_data - contains dates representing weeks for which we found the most played songs. Each week contains the average of all audio features for the most played songs that week.
 2.	Galgalats parades:
+
 a.	galgalatz_songs – contains the songs parades extracted from galgalatz website, which were published each week from '2019-02-21' to '2021-02-25', and for each song it’s song name, song artist, genre, audio features*,  and a list of weeks in which the song was shown in the parade.
+
 b.	galgalatz_weeks_to_lockdown – contains dates representing weeks for which we extracted the parades songs, and for each week the number of lockdown on which it occurred (0 if there was no lockdown on that date, 1 for the first lockdown, 2 for the second lockdown and 3 for the third lockdown). In addition for each date, there is a binary value that says whether the date was at the time of the corona or not.
+
 c.	galgalatz_weeks_data - contains dates representing weeks for which we extracted the parades songs, and for each week the average number for each audio feature*.
 
 *Audio features:
